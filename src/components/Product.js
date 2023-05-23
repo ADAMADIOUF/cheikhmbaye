@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { listProducts } from '../actions/productAction'
 import PageHero from './PageHero'
 import { Link, useLocation } from 'react-router-dom'
+import Loading from './Loading'
+import Error from './Error'
 
 const Product = ({title}) => {
   const dispatch = useDispatch()
@@ -24,11 +26,15 @@ useEffect(() => {
   }
 
   if (loading) {
-    return <div>Loading...</div>
+    return <div>
+      <Loading/>
+    </div>
   }
 
   if (error) {
-    return <div>Error: {error}</div>
+    return <div>
+      <Error/>
+    </div>
   }
 
   return (

@@ -5,6 +5,8 @@ import { withTranslation } from 'react-i18next'
 import PageHero from './PageHero'
 import { Link } from 'react-router-dom'
 import { formatPrice } from '../utils/helpers'
+import Loading from './Loading'
+import Error from './Error'
 
 const Product = ({ title, t }) => {
   const dispatch = useDispatch()
@@ -23,13 +25,15 @@ const Product = ({ title, t }) => {
   }
 
   if (loading) {
-    return <div>{t('product.loading')}</div>
+    return <div>
+      <Loading/>
+    </div>
   }
 
   if (error) {
     return (
       <div>
-        {t('product.error')}: {error}
+       <Error/>
       </div>
     )
   }

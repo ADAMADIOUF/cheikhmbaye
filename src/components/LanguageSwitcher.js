@@ -12,7 +12,11 @@ function LanguageSwitcher() {
   }
 
   return (
-    <select onChange={handleLanguageChange}>
+    <select
+      className='my-select'
+      style={{ background: 'aqua', color: 'black' }}
+      onChange={handleLanguageChange}
+    >
       <option value='en'>
         <FaFlag className='flag-icon' /> English
       </option>

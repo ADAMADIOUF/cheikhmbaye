@@ -8,6 +8,8 @@
   import ProductImages from './ProductImages'
   import { withTranslation } from 'react-i18next'
 import PageHero from './PageHero'
+import Loading from './Loading'
+import Error from './Error'
 
   const ProductDetails = ({ t }) => {
     const [qty, setQty] = useState(1)
@@ -43,9 +45,13 @@ import PageHero from './PageHero'
       <div className='container-singleProduct'>
         <PageHero title={product.name}  />
         {loading ? (
-          <h2>{t('productDetails.loading')}</h2>
+          <h2>
+            <Loading/>
+          </h2>
         ) : error ? (
-          <h2>{t('productDetails.error')}</h2>
+          <h2>
+            <Error/>
+          </h2>
         ) : (
           <div className='row section-center'>
             <div className='col-md-6'>
