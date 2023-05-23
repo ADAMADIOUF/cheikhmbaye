@@ -926,3 +926,17 @@ hr{
   background-color: darkgreen;
   cursor: pointer;
 }
+.select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+}
+
+.flag-icon {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  color: var(--clr-white);
+}

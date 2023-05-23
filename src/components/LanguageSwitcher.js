@@ -1,6 +1,6 @@
 import React from 'react'
 import { withTranslation, useTranslation } from 'react-i18next'
-import US from 'country-flag-icons/react/3x2/US'
+
 import { FaFlag } from 'react-icons/fa'
 
 function LanguageSwitcher() {
