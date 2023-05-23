@@ -1,0 +1,84 @@
+{
+  "about": {
+    "title": "Á Propos De Moi",
+    "description": "je m'appelle cheikh Mbaye œuvre toujours dans la tradition artisanale avec le respect des métiers liés à l’Art et à des savoirs faire Africains. Awa Gueye Couture tire sa force du multiculturalisme. Le couturier adore les voyages, les découvertes et la nature. Ses collections s’inspirent en partie de ses périples et de ses rencontres. Très à l’écoute de ses clientes, il se complait à les surprendre en présentant des créations en accord avec ses convictions : des confections élaborées avec des tissus nobles, issus de matières naturelles souvent retravaillées et brodées. Depuis ses premiers pas, auprès d'un chef couturier, Cheikh Mbaye a toujours travaillé dans la plus pure tradition “Haute Couture” et s’adresse à toutes celles et ceux qui recherchent l’élégance et l’exception. Puisant son inspiration au tréfonds des cultures du monde, Cheikh Mbaye est aujourd’hui un acteur incontournable de la mode Sénégalaise et Africaine. Plébiscité par le monde du stylisme, Awa Gueye Couture a su séduire une clientèle internationale par le choix des matières, le glamour, la douceur et l’esprit du détail."
+  },
+
+  "navbar": {
+    "logo": "Votre magasin de vêtements",
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "À propos de moi"
+  },
+
+  "categories": {
+    "collection1Title": "Nouvelles Collections",
+    "collection1Subtitle": "Meilleurs Costume Africain Et Robe Patche Basin Brodé Pour Tout Le Monde.",
+    "collection1Description": "Au Sénégal, l’art de bien s’habiller a toujours été omniprésent dans le quotidien des Sénégalais. En boubou traditionnel ou en tenue de ville, les Sénégalais aiment très bien se vêtir.",
+    "collection2Title": "Nouvelles Collections",
+    "collection2Subtitle": "Meilleurs Tenue De Cérémonie Et Deux Pièces Pour Tout Le Monde.",
+    "collection2Description": "Et surtout lors des grandes cérémonies culturelles et religieuses (baptêmes, mariages, Tabaski, Korité etc) pour un pays avec 95% de musulmans. Sans oublier les fêtes chrétiennes telles que : Noel (24 décembre) et la Saint-Sylvestre (31 décembre). L’art de bien s’habiller est une vieille tradition chez les Sénégalais.",
+    "shopNow": "Achetez maintenant"
+  },
+  "product": {
+    "loading": "Chargement en cours...",
+    "error": "Erreur",
+    "bestSellers": "Nos meilleures ventes",
+    "price": "Prix",
+    "description": "Description"
+  },
+  "common": {
+    "languageCode": "fr"
+  },
+  "lastCategories": {
+    "title": "LA COUTURE AU SÉNÉGAL, PLUS QU’UNE PASSION, UN MÉTIER !",
+    "description1": "Au Sénégal, l’art de bien s’habiller a toujours été omniprésent dans le quotidien des Sénégalais. En boubou traditionnel ou en tenue de ville, les Sénégalais aiment très bien se vêtir.",
+    "buttonText": "achetez maintenant",
+    "description2": "Le couturier adore les voyages, les découvertes et la nature. Ses collections s’inspirent en partie de ses périples et de ses rencontres. Très à l’écoute de ses clientes, il se complait à les surprendre en présentant des créations en accord avec ses convictions : des confections élaborées avec des tissus nobles, issus de matières naturelles souvent retravaillées et brodées."
+  },
+  "pageHero": {
+    "home": "accueil",
+    "shop": "Boutique"
+  },
+  "productDetails": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "price": "Prix",
+    "color": "Couleur",
+    "size": "Taille",
+    "status": "Statut",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "qty": "Quantité",
+    "buyWhatsApp": "Acheter par WhatsApp"
+  },
+  "footer": {
+    "title": "Awa Gueye Couture",
+    "address": "Adresse: Dakar, Sénégal, Benn Tally",
+    "phone": "Téléphone: +221 77 943 68 04",
+    "email": "Email: ",
+    "newsletter": "Bulletin d'information",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "subscribe": "S'abonner",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "reviews": {
+    "customerReviews": "Avis des clients",
+    "customer1Name": "Ablaye Ndiaye",
+    "customer1Review": "Super produit ! Je le recommande vivement.",
+    "customer2Name": "Ramatoulaye Diouf",
+    "customer2Review": "Excellent service et qualité. Je vais acheter à nouveau !"
+  },
+  "topSlider": {
+    "location": "Emplacement",
+    "locationDetails": "Sénégal, Dakar, Benn Tally.",
+    "paymentSecurity": "Sécurité des paiements",
+    "paymentSecurityDetails": "Vous pouvez payer sur toutes les plateformes de transfert d'argent.",
+    "assistance": "24/7 Ligne d'assistance",
+    "assistanceDetails": "Nous restons à votre disposition pour toutes questions.",
+    "shipping": "Expédition",
+    "shippingDetails": "Expédition pour commande supérieure à 200 000 CFA."
+  }
+}
+
+

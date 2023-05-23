@@ -1,0 +1,85 @@
+{
+  "about": {
+    "pageTitle": "About",
+    "title": "About Me",
+    "description": "My name is Cheikh Mbaye and I have always worked in the artisanal tradition with respect for art and African craftsmanship. Awa Gueye Couture draws its strength from multiculturalism. The designer loves traveling, discoveries, and nature. The collections are partly inspired by my journeys and encounters. I am attentive to my clients and take pleasure in surprising them by presenting creations that align with my convictions: elaborately crafted garments made with fine fabrics, derived from natural materials often reworked and embroidered. Since my early days working alongside a master couturier, I have always embraced the purest tradition of 'Haute Couture' and cater to anyone seeking elegance and exceptional quality. Drawing inspiration from the depths of world cultures, Cheikh Mbaye has become an indispensable figure in Senegalese and African fashion. Highly acclaimed by the fashion industry, Awa Gueye Couture has successfully captivated an international clientele through its choice of materials, glamour, softness, and attention to detail."
+  },
+
+  "navbar": {
+    "logo": "Your Clothing Store",
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About"
+  },
+
+  "categories": {
+    "collection1Title": "New Collections",
+    "collection1Subtitle": "Best African Costume and Patched Basin Embroidered Dress for Everyone",
+    "collection1Description": "In Senegal, the art of dressing well has always been prevalent in the daily lives of Senegalese people. Whether in traditional boubou or city attire, Senegalese people love to dress up.",
+    "collection2Title": "New Collections",
+    "collection2Subtitle": "Best Ceremony Outfits and Two-Piece Attires for Everyone",
+    "collection2Description": "Especially during major cultural and religious ceremonies (baptisms, weddings, Tabaski, Korité, etc.) in a country with 95% Muslims. Not to mention Christian holidays such as Christmas Eve (December 24th) and New Year's Eve (December 31st). The art of dressing well is an age-old tradition among Senegalese people.",
+    "shopNow": "Shop Now"
+  },
+  "product": {
+    "loading": "Loading...",
+    "error": "Error",
+    "bestSellers": "Our Best Sellers",
+    "price": "Price",
+    "description": "Description"
+  },
+  "common": {
+    "languageCode": "en"
+  },
+  "lastCategories": {
+    "title": "COUTURE IN SENEGAL, MORE THAN A PASSION, A PROFESSION!",
+    "description1": "In Senegal, the art of dressing well has always been omnipresent in the daily lives of Senegalese people. Whether in traditional boubou or city attire, Senegalese people love to dress well.",
+    "buttonText": "shop now",
+    "description2": "The couturier loves traveling, discoveries, and nature. His collections are partly inspired by his journeys and encounters. Attentive to his clients' needs, he takes pleasure in surprising them by presenting creations that align with his convictions: elaborately crafted garments made from noble fabrics, often reworked and embroidered."
+  },
+  "pageHero": {
+    "home": "home",
+    "shop": "Shop"
+  },
+  "productDetails": {
+    "loading": "Loading...",
+    "error": "Error",
+    "price": "Price",
+    "color": "Color",
+    "size": "Size",
+    "status": "Status",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "qty": "Quantity",
+    "buyWhatsApp": "Buy via WhatsApp"
+  },
+  "footer": {
+    "title": "Awa Gueye Couture",
+    "address": "Address: Dakar, Senegal, Benn Tally",
+    "phone": "Phone: +221 77 943 68 04",
+    "email": "Email: ",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "allRightsReserved": "All rights reserved."
+  },
+  "reviews": {
+    "customerReviews": "Customer Reviews",
+    "customer1Name": "John Doe",
+    "customer1Review": "Great product! I highly recommend it.",
+    "customer2Name": "Jane Smith",
+    "customer2Review": "Excellent service and quality. Will buy again!"
+  },
+  "topSlider": {
+    "location": "Location",
+    "locationDetails": "Senegal, Dakar, Benn Tally.",
+    "paymentSecurity": "Payment Security",
+    "paymentSecurityDetails": "You can pay on all money transfer platforms.",
+    "assistance": "24/7 Assistance",
+    "assistanceDetails": "We are available to assist you with any questions.",
+    "shipping": "Shipping",
+    "shippingDetails": "Shipping for orders over 200,000 XOF."
+  }
+}
+
+
