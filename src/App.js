@@ -8,11 +8,12 @@ import Product from './components/Product'
 import SingleProducts from './components/SingleProducts'
 
 import WhatsAppButton from './components/WhatsAppButton'
+import TopNav from './components/TopNav'
 
 const App = () => {
   return (
     <BrowserRouter>
-      
+      <TopNav/>
       <Navbar />
       <WhatsAppButton/>
      

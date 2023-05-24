@@ -56,7 +56,7 @@
   "footer": {
     "title": "Awa Gueye Couture",
     "address": "Address: Dakar, Senegal, Benn Tally",
-    "phone": "Phone: +221 77 943 68 04",
+    "phone": "Phone: +221777081351",
     "email": "Email: ",
     "newsletter": "Newsletter",
     "emailPlaceholder": "Your email address",
@@ -79,7 +79,11 @@
     "assistanceDetails": "We are available to assist you with any questions.",
     "shipping": "Shipping",
     "shippingDetails": "Shipping for orders over 200,000 XOF."
-  }
+  },
+  "boutique": "Shop",
+  "commentAiderAujourdHui": "How can I assist you today?"
 }
+
+
 
 

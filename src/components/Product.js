@@ -5,13 +5,15 @@ import PageHero from './PageHero'
 import { Link, useLocation } from 'react-router-dom'
 import Loading from './Loading'
 import Error from './Error'
+import { formatPrice } from '../utils/helpers'
+import { withTranslation } from 'react-i18next'
 
-const Product = ({title}) => {
+const Product = ({ title, t }) => {
   const dispatch = useDispatch()
-const location = useLocation()
-useEffect(() => {
-  window.scrollTo(0, 0)
-}, [location])
+  const location = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location])
   const productList = useSelector((state) => state.productList)
   const { loading, error, products } = productList
 
@@ -26,22 +28,26 @@ useEffect(() => {
   }
 
   if (loading) {
-    return <div>
-      <Loading/>
-    </div>
+    return (
+      <div>
+        <Loading />
+      </div>
+    )
   }
 
   if (error) {
-    return <div>
-      <Error/>
-    </div>
+    return (
+      <div>
+        <Error />
+      </div>
+    )
   }
 
   return (
     <div className='products '>
-      <PageHero title={`Boutique`} />
+      <PageHero title={t('boutique')} />
       <div className='product-details section-center'>
-        <h2>Product List</h2>
+        <h2>{t('commentAiderAujourdHui')}</h2>
         <div className='container-products'>
           {products.map((product) => (
             <div className='item' key={product.id}>
@@ -54,8 +60,8 @@ useEffect(() => {
                 </div>
               </Link>
               <h3>{product.name}</h3>
-              <p>Price: {product.price}</p>
-              <p>Description: {product.desc}</p>
+              <p>{formatPrice(product.price)}</p>
+              <p>{product.desc}</p>
             </div>
           ))}
         </div>
@@ -64,4 +70,4 @@ useEffect(() => {
   )
 }
 
-export default Product
+export default withTranslation()(Product)

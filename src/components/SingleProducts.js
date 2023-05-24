@@ -34,7 +34,7 @@ import Error from './Error'
     const handleAddToCart = () => {
       if (selectedSize && selectedColor) {
         const message = `je veux acheter ${product.name} x${qty} - Size: ${selectedSize}, Color: ${selectedColor}`
-        const url = `https://wa.me/+221779436804?text=${encodeURIComponent(
+        const url = `https://wa.me/+221777081351?text=${encodeURIComponent(
           message
         )}`
         window.open(url, '_blank')
@@ -43,14 +43,14 @@ import Error from './Error'
 
     return (
       <div className='container-singleProduct'>
-        <PageHero title={product.name}  />
+        <PageHero title={product.name} />
         {loading ? (
           <h2>
-            <Loading/>
+            <Loading />
           </h2>
         ) : error ? (
           <h2>
-            <Error/>
+            <Error />
           </h2>
         ) : (
           <div className='row section-center'>
@@ -160,7 +160,7 @@ import Error from './Error'
                   </button>
                   {showWhatsAppWidget && (
                     <WhatsAppWidget
-                      phoneNumber='+221779436804'
+                      phoneNumber='+221777081351'
                       message={`je veux acheter ${product.name}`}
                     />
                   )}

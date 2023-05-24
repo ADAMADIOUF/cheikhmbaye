@@ -18,10 +18,10 @@ function LanguageSwitcher() {
       onChange={handleLanguageChange}
     >
       <option value='en'>
-        <FaFlag className='flag-icon' /> English
+        <FaFlag className='flag-icon' /> English🇺🇸
       </option>
       <option value='fr'>
-        <FaFlag className='flag-icon' /> Français
+        <FaFlag className='flag-icon' /> Français🇫🇷
       </option>
     </select>
   )
