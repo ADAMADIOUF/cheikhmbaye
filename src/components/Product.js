@@ -11,9 +11,13 @@ import { withTranslation } from 'react-i18next'
 const Product = ({ title, t }) => {
   const dispatch = useDispatch()
   const location = useLocation()
+  const [visibleProducts, setVisibleProducts] = useState(9) // Number of products to display initially
+  const productsPerPage = 9 // Number of products to load per page
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [location])
+
   const productList = useSelector((state) => state.productList)
   const { loading, error, products } = productList
 
@@ -25,6 +29,10 @@ const Product = ({ title, t }) => {
 
   const handleHover = () => {
     setShowSecondImage(true)
+  }
+
+  const loadMoreProducts = () => {
+    setVisibleProducts((prevCount) => prevCount + productsPerPage)
   }
 
   if (loading) {
@@ -44,12 +52,12 @@ const Product = ({ title, t }) => {
   }
 
   return (
-    <div className='products '>
+    <div className='products'>
       <PageHero title={t('boutique')} />
       <div className='product-details section-center'>
         <h2>{t('commentAiderAujourdHui')}</h2>
         <div className='container-products'>
-          {products.map((product) => (
+          {products.slice(0, visibleProducts).map((product) => (
             <div className='item' key={product.id}>
               <Link to={`/products/${product.id}`}>
                 <div className='image-container'>
@@ -61,10 +69,15 @@ const Product = ({ title, t }) => {
               </Link>
               <h3>{product.name}</h3>
               <p>{formatPrice(product.price)}</p>
-              <p>{product.desc}</p>
+             
             </div>
           ))}
         </div>
+        {visibleProducts < products.length && (
+          <button onClick={loadMoreProducts} className='load-more'>
+            Charger plus
+          </button>
+        )}
       </div>
     </div>
   )

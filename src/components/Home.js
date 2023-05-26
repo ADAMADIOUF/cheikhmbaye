@@ -6,6 +6,7 @@ import LastCategories from './LastCategories'
 import Reviews from './Reviews'
 import Featured from "./Featured"
 import { useLocation } from 'react-router-dom'
+import HeaderVideo from './HeaderVideo'
 const Home = () => {
   const location = useLocation()
   useEffect(() => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Categories/>
       <Featured/>
       <LastCategories/>
+      <HeaderVideo/>
       <Reviews/>
     </div>
   )

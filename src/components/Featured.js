@@ -57,9 +57,7 @@ const Product = ({ title, t }) => {
               <p>
                 {t('product.price')}: {formatPrice(product.price, t)}
               </p>
-              <p>
-                {t('product.description')}: {product.desc}
-              </p>
+             
             </div>
           ))}
         </div>

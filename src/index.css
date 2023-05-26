@@ -786,6 +786,17 @@ hr{
   height: 500px;
   object-fit: cover;
 }
+.load-more{
+  background-color: var(--clr-primary-1);
+  color: var(--clr-black);
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
 /* SingleProduct */
 .container-singleProduct {
   display: flex;
